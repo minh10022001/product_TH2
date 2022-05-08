@@ -9,7 +9,7 @@ Bài quản lí sản phẩm:
 - Tạo các trang view:  các file html trong resources
 
 Phân công công viêc:
-Nguyên Văn Minh - B19DCCN439: đảm nhiệm phần controller, service
-Trần Khánh Hưng -B19DCCN331: đảm nhiệm phần entity, repository
-Đỗ Nhât Minh -B19DCCN427: đảm nhiệm phần view
+- Nguyên Văn Minh - B19DCCN439: đảm nhiệm phần controller, service
+- Trần Khánh Hưng -B19DCCN331: đảm nhiệm phần entity, repository
+- Đỗ Nhât Minh -B19DCCN427: đảm nhiệm phần view
  
