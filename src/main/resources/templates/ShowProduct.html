@@ -1,0 +1,48 @@
+<!DOCTYPE HTML>
+<html xmlns:th="http://www.thymeleaf.org">
+   <head>
+      <title>Logout</title>
+   </head>
+   
+   <body>
+    
+      
+      <h1> List of Products</h1>
+    
+   <br>
+   <div class="container centerss">
+
+		<table class="table table-striped">
+			<thead>
+				<tr>
+					
+					<th scope="col">Code</th>
+					<th scope="col">Description</th>
+					<th scope="col">Price</th>
+					
+
+				</tr>
+			</thead>
+			<tbody>
+
+
+				<tr th:each="model:${product}">
+					<td th:text="${model.code}"></td>
+					<td th:text="${model.description}"></td>
+					<td th:text="${model.price}"></td>
+				
+					
+					<td>
+						<a class="btn btn-sm btn-primary" th:href="@{'/ShowProduct/edit/' + ${model.ID}}">Edit</a>
+						<a class="btn btn-sm btn-danger" th:href="@{'/ShowProduct/delete/' + ${model.ID}}">Delete</a>
+						
+					</td>
+				</tr>
+			</tbody>
+		</table>
+
+	</div>
+  <a href="/Product" >Add product</a>
+   </body>
+   
+</html>

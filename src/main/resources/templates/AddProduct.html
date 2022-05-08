@@ -1,0 +1,38 @@
+<!DOCTYPE HTML>
+<html xmlns:th="http://www.thymeleaf.org">
+   <head>
+      <title>Logout</title>
+   </head>
+   
+   <body>
+    
+      
+      <h1>>Hello </h1>
+    <div class="formde">
+
+		<form method="POST" th:action="@{/addProduct}">
+
+			<div class="form-group">
+				<label>Code</label>
+				<input type="text" class="form-control" th:field="${newProduct.code}" required minlength="2">
+			</div>
+
+			<div class="form-group">
+				<label>Description</label>
+				<input type="text" class="form-control" th:field="${newProduct.description}" required>
+			</div>
+			<div class="form-group">
+				<label>Price</label>
+				<input type="number" class="form-control" th:field="${newProduct.price}" required minlength="5">
+			</div>
+
+		
+			<button type="submit" class="btn btn-primary">Add Product </button>
+
+			
+		</form>
+	</div>
+   
+   </body>
+   
+</html>
