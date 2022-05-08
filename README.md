@@ -1,4 +1,4 @@
-Bài Thực hành 2 _Nhóm BTL 10_Nhóm 04_Lập trình Web_thầy Đức
+Bài Thực hành 2 _Tổ TH 2_Nhóm BTL 10_Nhóm 04_Lập trình Web_thầy Đức
 
 Bài quản lí sản phẩm:
 - Sử dung Spring data jpa
